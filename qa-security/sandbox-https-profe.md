@@ -31,3 +31,11 @@ se deben concatenar 2 archivos:
     $ sudo systemctl stop haproxy
 
 ## configure haproxy.cfg para que acepte https para el dominio.
+
+## probar:
+
+en un browser por Internet (sin vpn)
+
+    https://st0263.dis.eafit.edu.co
+
+    http://st0263.dis.eafit.edu.co
