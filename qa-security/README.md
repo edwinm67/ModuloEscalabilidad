@@ -20,4 +20,10 @@ Add un dominio a un cert existente:
 
     > $ sudo /root/certbot-auto certonly --standalone --preferred-challenges http --http-01-port 80 --cert-path /etc/letsencrypt/archive/dis.eafit.edu.co --expand -d rstudio.dis.eafit.edu.co
 
+ejemplo concreto:
+
+    > $ sudo /root/certbot-auto certonly --cert-path /etc/letsencrypt/archive/st0263.dis.eafit.edu.co --expand -d proyecto19.dis.eafit.edu.co
+
+    > $ sudo /root/certbot-auto certonly -d st0263.dis.eafit.edu.co  --expand -d proyecto19.dis.eafit.edu.co
+
 https://stackoverflow.com/questions/38302401/letsencrypt-add-domain-to-existing-certificate
